@@ -51,7 +51,7 @@ module.exports = {
       entry: 'src/main.js',
       template: 'public/index.html',
       filename: 'index.html',
-      title: '门导诊'
+      title: '导诊'
     }
   }
 }

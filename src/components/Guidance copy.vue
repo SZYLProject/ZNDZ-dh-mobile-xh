@@ -1,7 +1,7 @@
 <template>
   <div class="g-wrap">
       <div class="top-wrap">
-        <div class="top-title-wrap">门导诊</div>
+        <div class="top-title-wrap">导诊</div>
       </div>
       <div class="middle-wrap">
         <div class="row"  v-for="(issue, index) in showList" :key="issue.id" :class="{doubleCol:issue.id === 'Q3'}">
