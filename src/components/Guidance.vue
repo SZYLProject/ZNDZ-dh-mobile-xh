@@ -129,7 +129,7 @@ export default {
       talkList: [
         {
           id: 1,
-          question: '欢迎使用北京协和医院智慧导诊服务',
+          question: '欢迎使用北京协和医院智能导诊服务', // 初始化文案
           msg: '当前症状：',
           time: this.$moment().format('YYYY-MM-DD hh:mm:ss'),
           value: {

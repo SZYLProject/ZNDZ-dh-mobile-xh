@@ -51,7 +51,7 @@ module.exports = {
       entry: 'src/main.js',
       template: 'public/index.html',
       filename: 'index.html',
-      title: '导诊'
+      title: '' // 原来为：门导诊 导诊 ,控制移动端的title
     }
   }
 }
